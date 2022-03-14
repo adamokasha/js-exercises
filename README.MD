@@ -2,13 +2,15 @@
 
 ### Getting started
 
-1. run `yarn install`
+run `yarn install`
 
-For exercise 2 & 3, to serve the HTML page and javascript I recommend install the [VSCode Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) then:
+For exercise 2 & 3, to serve the HTML page and javascript I recommend installing the [VSCode Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) then:
+
 1. Open the html file
-![a](./a.png)
+<img src=./a.png width=330 />
+
 2. Click `Go Live`
-![b](./b.png)
+<img src=./b.png width=500 />
 
 ### 1 - toArray
 
