@@ -10,6 +10,9 @@ function toArray(obj) {
     )
   }
   return collection
+
+  // other way to implement it using .map method
+  //return Object.keys(obj).map(key => {return [key, obj[key]]})
 }
 
 module.exports = { toArray };
