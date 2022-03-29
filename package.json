@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:e2e": "testcafe"
   },
   "dependencies": {
-    "jest": "^27.5.1"
+    "global": "^4.4.0",
+    "jest": "^27.5.1",
+    "testcafe": "^1.18.4"
   }
 }
