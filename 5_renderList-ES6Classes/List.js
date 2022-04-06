@@ -1,12 +1,14 @@
 // TODO: define class List
 class List {
   constructor() {
-    this.items = []
+    this.items = document.createElement("ul");
   }
+
   add(item) {
-    this.items.push(item)
-    return item
+    const listItem = document.createElement("li");
+    listItem.innerText = item;
+    this.items.appendChild(listItem);
   }
 }
 
-export default List
+export default List;

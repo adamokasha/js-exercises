@@ -10,23 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
   groceries.add("Olive Oil");
   groceries.add("Bread");
 
-  const groceryListDiv = document.querySelector("#my-list")
-  // create ul element
-  const groceryList = document.createElement('ul')
-  // assign id to ul element
-  groceryList.setAttribute('id', 'grocery-list')
-
-  // iterate over array of list groceries
-  groceries.items.forEach(item => {
-    // create li element
-    const li = document.createElement('li')
-    // set content for li element (grocery name)
-    li.innerHTML = item
-    // add individual li to ul element we created earlier
-    groceryList.appendChild(li)
-  })
-
-  // add complete ul to parent div
-  groceryListDiv.appendChild(groceryList)
-
+  const groceryListDiv = document.getElementById("my-list");
+  groceryListDiv.appendChild(groceries.items);
 });
