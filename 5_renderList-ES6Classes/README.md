@@ -33,7 +33,7 @@ groceries.add("Cheese"):
 
 It should then be appended to any existing DOM element like so:
 ```
-const groceryListDiv = document.querySelector("#grocery-list");
+const groceryListDiv = document.getElementById("grocery-list");
 groceryListDiv.append(groceries.items);
 ```
 
