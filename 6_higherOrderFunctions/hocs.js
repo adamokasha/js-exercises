@@ -17,7 +17,6 @@ function upperCase(arr) {
   arr.forEach((str, i) => {
     arr[i] = str.toUpperCase()
   })
-  return arr
 }
 
 module.exports = { squared, filterOdds, upperCase };

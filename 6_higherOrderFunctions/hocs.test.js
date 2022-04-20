@@ -13,6 +13,6 @@ test("filter odds returns an array without odd numbers", () => {
 
 test("uppercase modified an array of strings to uppercase", () => {
   const arr = ["apple", "bike", "cards", "deck", "elevator"];
-  const result = upperCase(arr);
-  expect(result).toEqual(["APPLE", "BIKE", "CARDS", "DECK", "ELEVATOR"]);
+  upperCase(arr);
+  expect(arr).toEqual(["APPLE", "BIKE", "CARDS", "DECK", "ELEVATOR"]);
 })
